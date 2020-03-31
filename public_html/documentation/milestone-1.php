@@ -1,7 +1,7 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8"/>
 
 	<title>Personal Website Project</title>
 </head>
@@ -14,7 +14,7 @@
 
 	Sell stylish fitness clothing like yoga pants and
 	sports bras. Any sports attire eventually, but to
-	keep it simple for now just bottoms and tops.kjbl,jbljbljb
+	keep it simple for now just bottoms and tops.
 </div>
 
 <div>
@@ -57,7 +57,7 @@
 <div>
 	<strong>ATTITUDES/BEHAVIORS:</strong>
 
-	Likes to work out every few days. She is always ery short
+	Likes to work out every few days. She is always very short
 	on time because of work. She likes to be comfortable and
 	stylish at the same time in case she needs to meet with people.
 	Is not too huge on technology, prefers person to person
