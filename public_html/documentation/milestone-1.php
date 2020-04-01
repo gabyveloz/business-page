@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
@@ -6,53 +6,50 @@
 	<title>Personal Website Project</title>
 </head>
 <body>
+<p>
 
 <h2>Milestone 1</h2>
 
-<div>
-	<strong>PURPOSE:</strong>
+<p><strong>PURPOSE:</strong>
 
 	Sell stylish fitness clothing like yoga pants and
 	sports bras. Any sports attire eventually, but to
-	keep it simple for now just bottoms and tops.
-</div>
-
-<div>
-	<p><strong>AUDIENCE:</strong>
-
-	<li>Females</li>
-	<li>Age 14+</li>
-	<li>Atheletes</li>
-	<li>Non-athelets/for comfort</li>
-	<li>Potential Customers</li>
-	</p>
-</div>
-
-<div>
-	<strong>GOAL:</strong>
-
-		To reach any potential customers wanting to purchase
-		new gym clothing that fits them great and looks cute.
-		<p>
-	   <li>Earn part time income in selling this product</li>
-		<li>Create a well known brand.</li>
-		<li>Create a demand.</li>
-		<li>Keep them at an affordable rate.</li>
+	keep it simple for now just 3 types of bottoms and 3 types of tops.
 </p>
 
+<strong>AUDIENCE:</strong>
+
+	<ul>Females</ul>
+	<ul>Age 14+</ul>
+	<ul>Atheletes</ul>
+	<ul>Non-athelets/for comfort</ul>
+	<ul>Potential Customers</ul>
+
+
+<div>
+
+	<strong>GOAL:</strong>
+To reach any potential customers wanting to purchase
+new gym clothing that fits them great and looks cute.
+	<ul>Earn part time income in selling this product</ul>
+	<ul>Create a well known brand.</ul>
+	<ul>Create a demand.</ul>
+	<ul>Keep them at an affordable rate.</ul>
+
 </div>
 
 
-	<div>
 
-		<img src="Crystal.jpg"/>
-<p>
-		<li>Name: Crystal</li>
-		<li>Age: 35 years old</li>
-		<li>Job: Marketing/sales</li>
-		<li>Device: Apple Iphone 8</li>
-	</p>
-	</div>
+		<img src="Crystal.jpg" alt="Crystal"/>
+
+
+<div>
+		Name: Crystal
+		Age: 35 years old
+		Job: Marketing/sales
+		Device: Samsung Note 10+
+</div>
+
 
 <div>
 	<strong>ATTITUDES/BEHAVIORS:</strong>
@@ -68,8 +65,8 @@
 <div>
 	<p><strong>NEEDS/FRUSTRATIONS:</strong>
 	Crystal needs to order a new set of gym clothes. She likes
-	simple transactions that allow her to input her information
-	and find the correct sizes with a simple checkout. She needs
+	simple transactions that allow her to request what she wants
+	and find the correct sizes with a simplicity. She needs
 	good quality leggings that are not see through. She is
 	frustrated the most when she cannot find the correct size and
 	cannot mix and match outfits. She does not like slow shipping
@@ -79,11 +76,10 @@
 
 <div>
 	<p><strong>GOALS:</strong>
-	Crystal wants to purchase a new set of leggings and sports
-	bras at a decent price. She wants them to be cute enough
+	Crystal wants to purchase a new set of gym wear
+	at a decent price. She wants them to be cute enough
 	to also wear out on a casual day. She would like fast
-	shipping and a simple way to browse and filter through
-	her options.
+	shipping and a simple way to browse through her options.
 	</p>
 </div>
 
