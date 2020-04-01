@@ -44,10 +44,10 @@ new gym clothing that fits them great and looks cute.
 
 
 <div>
-		Name: Crystal
-		Age: 35 years old
-		Job: Marketing/sales
-		Device: Samsung Note 10+
+	<ul>Name: Crystal</ul>
+	<ul>Age: 35 years old</ul>
+	<ul>Job: Marketing/sales</ul>
+	<ul>Device: Samsung Note 10+</ul>
 </div>
 
 
