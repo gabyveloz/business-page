@@ -38,4 +38,4 @@ media platforms.
 </html>
 
 
-<img src="pwp2wireframe1.png" alt="wireframedesign"/>
+<img src="pwp2wireframe1.png" alt="wireframe"/>
