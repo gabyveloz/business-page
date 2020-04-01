@@ -9,7 +9,7 @@
 My site will be a one page catalog composed of the
 following sections.
 
-<h4>Title</h4>Welcome, to Our brand name and logo
+<h4>Title</h4>Welcome, Our brand name and logo
 
 <h4>Menu</h4>Welcome
 Deals
@@ -25,7 +25,7 @@ Request Center
 -scroll through our options
 -collect sku #'s for items of choice.
 -send msg/request of items/sku #'s, allow 24 hrs for response.
--receive link to place order through paypal
+-receive response on how to proceed with order.
 
 <h4>Inventory</h4>Fit pants, Fit Tops.
 
