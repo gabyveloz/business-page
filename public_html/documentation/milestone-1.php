@@ -40,7 +40,7 @@ new gym clothing that fits them great and looks cute.
 
 
 
-		<img src="Crystal.jpg" alt="Crystal"/>
+		<img src="../images/Crystal.jpg" alt="Crystal"/>
 
 
 <div>
