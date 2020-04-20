@@ -17,7 +17,22 @@
 
 
 
-	<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+	<!-- jQuery Form, Additional Methods, Validate -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+	<!-- Your JavaScript Form Validator -->
+	<script src="js/form-validate.js"></script>
+
+	<!-- Google reCAPTCHA -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
+
+
+	<nav class=" navbar-expand-lg navbar navbar-dark bg-dark">
 		<a class="navbar-brand" href="#">Welcome to Velwear</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -37,10 +52,10 @@
 
 
 
-
 <body>
 
-<div class="container py-5">
+
+<div class="container py-5 background-clouds">
 
 	<div class="jumbotron">
 		<h1 class="display-4">How it works!</h1>
@@ -55,68 +70,133 @@
 	</div>
 </div>
 
-<div class="row row-cols-3-md-2">
+<div class="row row-cols-3-md-2 container-fluid py-5">
 	<div class="col-sm-4">
 		<div class="card bg-dark">
-			<img class="img-fluid mx-auto mb-4" src="https://via.placeholder.com/200" class="card-img-top" alt="...">
+			<img class="img-fluid mx-auto mb-4" src="../images/black-leggings.jpg" class="card-img-top" alt="...">
 			<div class="card-body">
-				<h5 class="card-title">Fit Pant1</h5>
-				<p class="card-text">S M L</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
+				<h5 class="card-title text-white">Velwear Blk</h5>
+				<p class="card-text">
+
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">S
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">M
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">L
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+
+
+				</p>
 			</div>
 		</div>
 	</div>
 	<div class="col-sm-4">
-		<div class="card bg-danger">
-			<img class="img-fluid mx-auto mb-4" src="https://via.placeholder.com/200" class="card-img-top" alt="...">
+		<div class="card bg-dark">
+			<img class="img-fluid mx-auto mb-4" src="../images/pink-leggings.jpg" class="card-img-top" alt="...">
 			<div class="card-body">
-				<h5 class="card-title">Fit Pant2</h5>
-				<p class="card-text">S M L</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
-			</div>
+				<h5 class="card-title text-white">Fit Pant2</h5>
+				<p class="card-text">
+
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">S
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">M
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">L
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				</p>
+				</div>
 		</div>
 	</div>
 	<div class="col-sm-4">
 		<div class="card bg-dark">
-			<img class="img-fluid mx-auto mb-4" src="https://via.placeholder.com/200" class="card-img-top" alt="...">
+			<img class="img-fluid mx-auto mb-4" src="../images/purple-leggings.jpg" class="card-img-top" alt="...">
 			<div class="card-body">
-				<h5 class="card-title">Fit Pant3</h5>
-				<p class="card-text">S M L</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
+				<h5 class="card-title text-white">Fit Pant3</h5>
+
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">S
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">M
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="input-group-text">L
+							<input type="checkbox" aria-label="Checkbox for following text input">
+						</div>
+					</div>
+				</div>
+				</p>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="row row-cols-3-md-2">
+
+<div class="row row-cols-3-md-2 container-fluid py-5">
 	<div class="col-sm-4">
-		<div class="card bg-danger">
-			<img class="img-fluid mx-auto mb-4" src="https://via.placeholder.com/200" class="card-img-top" alt="...">
-			<div class="card-body">
+		<div class="card bg-dark">
+			<img class="img-fluid mx-auto mb-4" src="../images/black-top.jpg" class="card-img-top" alt="...">
+			<div class="card-body text-white">
 				<h5 class="card-title">Fit Top1</h5>
 				<p class="card-text">S M L</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
 			</div>
 		</div>
 	</div>
 	<div class="col-sm-4">
 		<div class="card bg-dark">
-			<img class="img-fluid mx-auto mb-4" src="https://via.placeholder.com/200" class="card-img-top" alt="...">
-			<div class="card-body">
+			<img class="img-fluid mx-auto mb-4" src="../images/pink-top.jpg" class="card-img-top" alt="...">
+			<div class="card-body text-white">
 				<h5 class="card-title">Fit Top2</h5>
 				<p class="card-text">S M L</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
 			</div>
 		</div>
 	</div>
 	<div class="col-sm-4">
-		<div class="card bg-danger">
-			<img class="img-fluid mx-auto mb-4" src="https://via.placeholder.com/200" class="card-img-top" alt="...">
-			<div class="card-body">
+		<div class="card bg-dark">
+			<img class="img-fluid mx-auto mb-4" src="../images/purple-top.jpg" class="card-img-top" alt="...">
+			<div class="card-body text-white">
 				<h5 class="card-title">Fit Top3</h5>
 				<p class="card-text">S M L
 				</p>
-				<a href="#" class="btn btn-primary">Go somewhere</a>
 			</div>
 		</div>
 	</div>
@@ -126,7 +206,52 @@
 
 
 <!-- CONTACT FORM -->
+<div class="container py-5 border">
+
+<form class="form-horizontal well" action="email.php">
+	<div class="form-group">
+		<label for="name">Name</label>
+		<div class="input-group">
+			<div class="input-group-addon">
+				<i class="fa fa-user" aria-hidden="true"></i>
+			</div>
+			<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email">Email address</label>
+		<div class="input-group">
+			<div class="input-group-addon">
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+			</div>
+			<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="subject">Subject</label>
+		<div class="input-group">
+			<div class="input-group-addon">
+				<i class="fa fa-pencil" aria-hidden="true"></i>
+			</div>
+			<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message">Message</label>
+		<div class="input-group">
+			<div class="input-group-addon">
+				<i class="fa fa-comment" aria-hidden="true"></i>
+			</div>
+			<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
+		</div>
+	</div>
+	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+</form>
+<div id="output-area"></div>
 
 
+
+</div>
 </body>
 </html>
