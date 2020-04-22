@@ -43,12 +43,13 @@ try {
 
 
 
+
 	// create Swift message
 	$swiftMessage = new Swift_Message();
 	/**
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
-	 **/
+	 **/\
 	$swiftMessage->setFrom([$email => $name]);
 	/**
 	 * Attach the recipients to the message.
