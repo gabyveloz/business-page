@@ -113,29 +113,30 @@
 			<div class="card-body">
 				<h4 class="card-title text-white">Velwear Blk</h4>
 				<p class="card-text">
-				<!--this is the checkmark boxes-->
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-						<div class="input-group-text">S
-							<input type="checkbox" aria-label="Checkbox for following text input">
-						</div>
-					</div>
-				</div>
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-						<div class="input-group-text">M
-							<input type="checkbox" aria-label="Checkbox for following text input">
-						</div>
-					</div>
-				</div>
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-						<div class="input-group-text">L
-							<input type="checkbox" aria-label="Checkbox for following text input">
-						</div>
-					</div>
-				</div>
-				</p><!--the end of the checkmark section-->
+				<!--this is the check mark boxes-->
+					<script type="text/javascript">
+						function is_checked() {
+							var sizes = document.getElementById('small').checked;
+							var sizes = document.getElementById('medium').checked;
+							var sizes = document.getElementById('large').checked;
+
+							if(small==false && medium==false && large==false){
+								alert('please choose size');
+								return false;
+							}
+							else{
+								return true;
+							}
+						}
+					</script>
+					<form action="submission.html" method="return is_checked()" >
+				<p>Select size</p>
+				Small <input type="checkbox" name="sizes" value="small" id="small"/><br/>
+				Medium <input type="checkbox" name="sizes" value="medium" id="medium"/><br/>
+				Large <input type="checkbox" name="large" value="small" id="large"/><br/>
+				<input type="submit" value="submit"/>
+			</form>
+				<!--the end of the checkmark section-->
 			</div>
 		</div>
 		</div>
