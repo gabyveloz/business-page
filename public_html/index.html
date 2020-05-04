@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<!-- Required meta tags -->
@@ -12,6 +12,9 @@
 	<link href="css/style.css" rel="stylesheet">
 
 	<!-- Optional JavaScript -->
+	<script src='js/main.js'></script>
+
+
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
@@ -101,211 +104,116 @@
 	<div class="col-12">
 <h1 class="display-4">Inventory</h1>
 	</div>
-		<hr>
 	</div>
 </div>
-<!--card content leggings & tops-->
-<div class="container-fluid padding">
-	<div class="row padding">
-		<div class="col-md-4">
-		<div class="card bg-dark">
-			<img class="card-img-top" src="images/black-leggings.jpg">
-			<div class="card-body">
-				<h4 class="card-title text-white">Velwear Blk</h4>
-				<p class="card-text">
-				<!--this is the check mark boxes-->
-					<script type="text/javascript">
-						function is_checked() {
-							var sizes = document.getElementById('small').checked;
-							var sizes = document.getElementById('medium').checked;
-							var sizes = document.getElementById('large').checked;
-
-							if(small==false && medium==false && large==false){
-								alert('please choose size');
-								return false;
-							}
-							else{
-								return true;
-							}
-						}
-					</script>
-					<form action="submission.html" method="return is_checked()" >
-				<p>Select size</p>
-				Small <input type="checkbox" name="sizes" value="small" id="small"/><br/>
-				Medium <input type="checkbox" name="sizes" value="medium" id="medium"/><br/>
-				Large <input type="checkbox" name="large" value="small" id="large"/><br/>
-				<input type="submit" value="submit"/>
-			</form>
-				<!--the end of the checkmark section-->
+<!--card content bottoms & tops-->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-sm-4">
+				<div class="card bg-dark">
+					<img class="card-img-top" src="images/black-leggings.jpg">
+					<div class="card-body">
+						<h4 class="text-white">Velwear Black Leggings #101</h4>
+						<p class="card-text">
+							<!--this is the check mark boxes-->
+						<p>Select size</p>
+						Small <input type="checkbox" name="small" value="#101" id="small"/><br/>
+						Medium <input type="checkbox" name="medium" value="#101" id="medium"/><br/>
+						Large <input type="checkbox" name="large" value="#101" id="large"/><br/>
+					</p><!--the end of the checkmark section-->
+					</div>
+				</div>
 			</div>
-		</div>
-		</div>
 
-		<div class="col-md-4">
-			<div class="card bg-dark">
-				<img class="card-img-top" src="images/pink-leggings.jpg">
-				<div class="card-body">
-					<h4 class="card-title text-white">Vfit2</h4>
-					<p class="card-text">
-						<!--this is the checkmark boxes-->
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<div class="input-group-text">S
-								<input type="checkbox" aria-label="Checkbox for following text input">
-							</div>
-						</div>
+			<div class="col-sm-4">
+				<div class="card bg-dark">
+					<img class="card-img-top" src="images/pink-leggings.jpg">
+					<div class="card-body">
+						<h4 class="text-white">Velwear Pink Leggings #102</h4>
+						<p class="card-text">
+							<!--this is the checkmark boxes-->
+						<p>Select size</p>
+						Small <input type="checkbox" name="small" value="#102" id="small"/><br/>
+						Medium <input type="checkbox" name="medium" value="#102" id="medium"/><br/>
+						Large <input type="checkbox" name="large" value="#102" id="large"/><br/>
+						</p><!--end of checkmark section-->
 					</div>
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<div class="input-group-text">M
-								<input type="checkbox" aria-label="Checkbox for following text input">
-							</div>
-						</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="card bg-dark">
+					<img class="card-img-top" src="images/purple-leggings.jpg">
+					<div class="card-body">
+						<h4 class="card-title text-white">Velwear Purple Leggings #103</h4>
+						<p class="card-text">
+							<!--this is the checkmark boxes-->
+						<p>Select size</p>
+						Small <input type="checkbox" name="small" value="#103" id="small"/><br/>
+						Medium <input type="checkbox" name="medium" value="#103" id="medium"/><br/>
+						Large <input type="checkbox" name="large" value="#103" id="large"/><br/>
+						</p><!--end of checkmark section-->
 					</div>
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<div class="input-group-text">L
-								<input type="checkbox" aria-label="Checkbox for following text input">
-							</div>
-						</div>
-					</div>
-					</p><!--end of checkmark section-->
 				</div>
 			</div>
 		</div>
+	</div>
+			<!--fit top section-->
+			<div class="container-fluid padding">
+				<div class="row padding">
+					<div class="col-sm-4">
+						<div class="card bg-dark">
+							<img class="card-img-top" src="images/black-top.jpg">
+							<div class="card-body">
+								<h4 class="card-title text-white">Velwear Black Top #201</h4>
+								<p class="card-text">
+									<!--this is the checkmark boxes-->
+								<p>Select size</p>
+								Small <input type="checkbox" name="small" value="#201" id="small"/><br/>
+								Medium <input type="checkbox" name="medium" value="#201" id="medium"/><br/>
+								Large <input type="checkbox" name="large" value="#201" id="large"/><br/>
+								</p><!--the end of the checkmark section-->
+							</div>
+						</div>
+					</div>
 
-				<div class="col-md-4">
-					<div class="card bg-dark">
-						<img class="card-img-top" src="images/purple-leggings.jpg">
-						<div class="card-body">
-							<h4 class="card-title text-white">V-fit-3</h4>
-							<p class="card-text">
-								<!--this is the checkmark boxes-->
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">S
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
+					<div class="col-sm-4">
+						<div class="card bg-dark">
+							<img class="card-img-top" src="images/pink-top.jpg">
+							<div class="card-body">
+								<h4 class="card-title text-white">Velwear Pink Top #202</h4>
+								<p class="card-text">
+									<!--this is the checkmark boxes-->
+								<p>Select size</p>
+								Small <input type="checkbox" name="small" value="#202" id="small"/><br/>
+								Medium <input type="checkbox" name="medium" value="#202" id="medium"/><br/>
+								Large <input type="checkbox" name="large" value="#202" id="large"/><br/>
+								</p>
+								<!--end of checkmark section-->
 							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">M
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="card bg-dark">
+							<img class="card-img-top" src="images/purple-top.jpg">
+							<div class="card-body">
+								<h4 class="card-title text-white">Velwear Purple Top #203</h4>
+								<p class="card-text">
+									<!--this is the checkmark boxes-->
+								<p>Select size</p>
+								Small <input type="checkbox" name="small" value="#203" id="small"/><br/>
+								Medium <input type="checkbox" name="medium" value="#203" id="medium"/><br/>
+								Large <input type="checkbox" name="large" value="#203" id="large"/><br/>
+								</p>
+								<!--end of checkmark section-->
 							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">L
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							</p><!--end of checkmark section-->
 						</div>
 					</div>
 				</div>
-<!--fit top section-->
-		<div class="container-fluid padding">
-			<div class="row padding">
-				<div class="col-md-4">
-					<div class="card bg-dark">
-						<img class="card-img-top" src="images/black-top.jpg">
-						<div class="card-body">
-							<h4 class="card-title text-white">V-wear top blk</h4>
-							<p class="card-text">
-								<!--this is the checkmark boxes-->
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">S
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">M
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">L
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							</p><!--the end of the checkmark section-->
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card bg-dark">
-						<img class="card-img-top" src="images/pink-top.jpg">
-						<div class="card-body">
-							<h4 class="card-title text-white">V-wear top pink</h4>
-							<p class="card-text">
-								<!--this is the checkmark boxes-->
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">S
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">M
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">L
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							</p><!--end of checkmark section-->
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card bg-dark">
-						<img class="card-img-top" src="images/purple-top.jpg">
-						<div class="card-body">
-							<h4 class="card-title text-white">V-wear top purple</h4>
-							<p class="card-text">
-								<!--this is the checkmark boxes-->
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">S
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">M
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<div class="input-group-text">L
-										<input type="checkbox" aria-label="Checkbox for following text input">
-									</div>
-								</div>
-							</div>
-							</p><!--end of checkmark section-->
-						</div>
-					</div>
-				</div>
+			</div>
 </body>
+
 
 <!-- CONTACT FORM -->
 <div class="container py-5 border">
@@ -347,7 +255,7 @@
 		</div>
 	</div>
 	<!-- reCAPTCHA -->
-		<div class="g-recaptcha" data-sitekey="6LeFBOwUAAAAAG2cu1iuvJUOjXkmjilWZXSskr5S"></div>
+		<div class="g-recaptcha" data-sitekey="6LdnjPIUAAAAAGO_QDGf3q3VG-R6lK00SM-pCVGQ"></div>
 
 		<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 		<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
@@ -362,15 +270,15 @@
 </div>
 
 <!--footer-->
-				<div class="container-fluid">
-					<footer>
-					<div class="row text-center">
-						<div class="col-md-12">
-							<p>505-357-7444</p>
-							<p>velwear@gmail.com</p>
-						</div>
-					</div>
-					</footer>
-				</div>
 
+<div class="container-fluid">
+	<footer>
+		<div class="row text-center">
+			<div class="col-md-12">
+				<p>505-357-7444</p>
+				<p>velwear@gmail.com</p>
+			</div>
+		</div>
+	</footer>
+</div>
 </html>
